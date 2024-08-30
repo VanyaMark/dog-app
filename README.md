@@ -20,7 +20,8 @@ The **Doggos App** allows users to select a dog breed from a dropdown menu and v
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/doggos-app.git
-
+    ```
+   
    ## Usage
 - Open the app in your browser.
 - Select a dog breed from the dropdown menu.
@@ -40,4 +41,4 @@ The app is responsive, with breakpoints for:
 
 ## API Reference
 The app uses the [Dog CEO API](https://dog.ceo/dog-api/) to fetch dog breed data and images.
-You can copy and paste this markdown content dir
+
