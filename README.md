@@ -3,6 +3,11 @@
 ## Overview
 The **Doggos App** allows users to select a dog breed from a dropdown menu and view a randomly generated image of that breed. The app fetches breed data and images from the Dog CEO API.
 
+## Live Site
+
+You can view the live version of the portfolio page here: [https://vanyamark.github.io/dog-app/](https://vanyamark.github.io/dog-app/)
+
+
 ## Features
 - Dropdown selection of dog breeds.
 - Displays a random image of the selected breed.
