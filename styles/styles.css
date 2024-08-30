@@ -1,16 +1,4 @@
-@keyframes spin {
-    to {
-        transform: rotateZ(360deg)
-    }
-}
-
-/* .spinner {
-    font-size: 50px;
-    text-align: center;
-    animation: 2s spin linear infinite;
-    display: none;
-} */
-
+/* Header Style */
 header {
     background-color: #5d91e0;
     display: flex;
@@ -22,6 +10,11 @@ header {
     padding: 2rem 0;
 }
 
+.dog-icon {
+  width: 50px;
+  height: auto;
+}
+
 header h1 {
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
@@ -31,11 +24,24 @@ header h1 {
     text-transform: uppercase;
 }
 
+/* Breeds Select Tag */
 .breeds {
     width: 60vw;
-
 }
 
+/* End Header Style */
+
+/* Dog Card Style */
+.card {
+  max-width: 80vw;
+}
+
+.dog-img {
+  display: none;
+  max-height: 60vh;
+  width: 100%;
+  object-fit: scale-down;
+}
 
 .loader {
     width: 48px;
@@ -43,10 +49,10 @@ header h1 {
     border: 3px dotted #174491;
     border-style: solid solid dotted dotted;
     border-radius: 50%;
-    display: inline-block;
     position: relative;
     box-sizing: border-box;
     animation: rotation 2s linear infinite;
+    margin: auto;
     display: none;
   }
   .loader::after {
@@ -84,13 +90,23 @@ header h1 {
     }
   } 
 
-.dog-img {
-    display: none;
-}
 .show {
     display: block;
 }
 
-.card {
-    width: 400px;
+@media screen and (min-width: 768px) {
+
+  .dog-icon {
+    width: 80px;
+  }
+
+  .card {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    max-width: 40vw;
+  }
 }
